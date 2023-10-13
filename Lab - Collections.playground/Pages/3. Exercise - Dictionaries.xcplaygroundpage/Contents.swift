@@ -15,7 +15,7 @@ diction.updateValue(29, forKey: "February")
 print(diction)
 //:  Use if-let syntax to retrieve the number of days under "January." If the value is there, print "January has 31 days", where 31 is the value retrieved from the dictionary.
 if let mathew = diction.updateValue(31, forKey: "January"){
-    print("January has 31 days")
+    print("\(mathew) has 31 days")
 }
 
 //:  Given the following arrays, create a new [String : [String]] dictionary. `shapesArray` should use the key "Shapes" and `colorsArray` should use the key "Colors." Print the resulting dictionary.
